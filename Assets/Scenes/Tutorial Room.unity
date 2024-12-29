@@ -1667,7 +1667,7 @@ MonoBehaviour:
   framingOffset: {x: 0, y: 5}
   rotationSpeed: 2
   invertX: 0
-  invertY: 0
+  invertY: 1
 --- !u!1001 &1919263430
 PrefabInstance:
   m_ObjectHideFlags: 0
