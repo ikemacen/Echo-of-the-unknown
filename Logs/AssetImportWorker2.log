@@ -1,0 +1,607 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.31f1 (a206c360e2a8) revision 10618563'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.0.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/GitHub/Echoes of the Unknown/Echo-of-the-unknown
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51833
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/GitHub/Echoes of the Unknown/Echo-of-the-unknown
+D:/GitHub/Echoes of the Unknown/Echo-of-the-unknown
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21180]  Target information:
+
+Player connection [21180]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1322647135 [EditorId] 1322647135 [Version] 1048832 [Id] WindowsEditor(7,Yu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21180] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21180] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.31f1 (a206c360e2a8)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.0.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Echoes of the Unknown/Echo-of-the-unknown/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24a0)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.0.31f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.0.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.0.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005655 seconds.
+- Loaded All Assemblies, in  0.616 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.496 seconds
+Domain Reload Profiling: 1112ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (198ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (497ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (446ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (244ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  1.375 seconds
+Refreshing native plugins compatible for Editor in 9.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.288 seconds
+Domain Reload Profiling: 2663ms
+	BeginReloadAssembly (291ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (955ms)
+		LoadAssemblies (735ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (403ms)
+			TypeCache.Refresh (292ms)
+				TypeCache.ScanAssembly (253ms)
+			BuildScriptInfoCaches (92ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1289ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1003ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (709ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6250 unused Assets / (5.2 MB). Loaded Objects now: 6943.
+Memory consumption went from 174.3 MB to 169.1 MB.
+Total: 22.596200 ms (FindLiveObjects: 1.717200 ms CreateObjectMapping: 2.044200 ms MarkObjects: 8.931900 ms  DeleteObjects: 9.899100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 836291.185155 seconds.
+  path: Assets/Materials/Green 1.mat
+  artifactKey: Guid(20d141ce1a807eb45ade54f7acbf089b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Green 1.mat using Guid(20d141ce1a807eb45ade54f7acbf089b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3e22274d2820019c0ab93789ee6e531') in 0.8737079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Materials/Yellow.mat
+  artifactKey: Guid(d70cee1eed0af9f4e9c440b9bd71e92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Yellow.mat using Guid(d70cee1eed0af9f4e9c440b9bd71e92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8a0e55bdca7f12a399f0cfeb58088bb') in 0.0233984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Materials/Lips.mat
+  artifactKey: Guid(f11dfc89d38090c4fb6d323d04c17f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Lips.mat using Guid(f11dfc89d38090c4fb6d323d04c17f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b6a4fbd5576ac0632a25d7a5ee7abd4') in 0.0240992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Materials/Grey.mat
+  artifactKey: Guid(6fc3cd353cc171446aefd5b1b2fa3c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grey.mat using Guid(6fc3cd353cc171446aefd5b1b2fa3c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '310bd6e84ade8c9470ad7b9542524d81') in 0.0377316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Materials/BlueOut.mat
+  artifactKey: Guid(21422dbb19f0e2f48ab18a900aa2e147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BlueOut.mat using Guid(21422dbb19f0e2f48ab18a900aa2e147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f14a12909342242ed1eaf932de1ce6cf') in 0.0209453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Materials/Yellow 1.mat
+  artifactKey: Guid(ffeaf8b560c4cdc428022723539b26cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Yellow 1.mat using Guid(ffeaf8b560c4cdc428022723539b26cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b5d7c86a1aa3e46e5bb7830fbcb0799') in 0.0215745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.855378 seconds.
+  path: Assets/Animators/CharacterController.controller
+  artifactKey: Guid(943fb20756df03d43a566afd8017058c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/CharacterController.controller using Guid(943fb20756df03d43a566afd8017058c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef7e01afd1ebc0d37a13d473466c4d5b') in 0.0371736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.549527 seconds.
+  path: Assets/Animators/StarterAssetsThirdPerson.controller
+  artifactKey: Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/StarterAssetsThirdPerson.controller using Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ef328118eaf4b1271c8f6e125969ea1') in 0.0039201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.492076 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharAnims.fbx
+  artifactKey: Guid(e8b92cf4a1c69f249beeba733cf11a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharAnims.fbx using Guid(e8b92cf4a1c69f249beeba733cf11a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f634ac948be090a4f827396e73caa2c8') in 0.5060933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 308
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.201384 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims
+  artifactKey: Guid(e97e3ff0e602578409a20b7ee93d562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims using Guid(e97e3ff0e602578409a20b7ee93d562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66a0976b1c6788895a01d3308bcea32d') in 0.0023065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.777297 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharWalk.fbx
+  artifactKey: Guid(1e89df603600b254584682962b59d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharWalk.fbx using Guid(1e89df603600b254584682962b59d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0996b1258b20c15b8e5f7d6fbeb27d69') in 0.0215388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 848
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.929802 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharWalk.fbx
+  artifactKey: Guid(1e89df603600b254584682962b59d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharWalk.fbx using Guid(1e89df603600b254584682962b59d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bcd676f26f951eacc086faf35a63d6f') in 0.0311751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 848
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.227451 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharWalk.fbx
+  artifactKey: Guid(1e89df603600b254584682962b59d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharWalk.fbx using Guid(1e89df603600b254584682962b59d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8be59799ad2fb39255a82cfc7268b5bd') in 0.3800896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.860406 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharWalk.fbx
+  artifactKey: Guid(1e89df603600b254584682962b59d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharWalk.fbx using Guid(1e89df603600b254584682962b59d0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd797ba3bab7a2f9a4578dd2a96a3751') in 0.3708243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.429582 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/charWalk.anim
+  artifactKey: Guid(ceb10549c6564d04d8f63d4531a8c46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/charWalk.anim using Guid(ceb10549c6564d04d8f63d4531a8c46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e532403a57757c4521521797c517496') in 0.0120304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.518058 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/charWalk_OLD.anim
+  artifactKey: Guid(ceb10549c6564d04d8f63d4531a8c46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/charWalk_OLD.anim using Guid(ceb10549c6564d04d8f63d4531a8c46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f321ee97096f2bf752509ba28841d26') in 0.0136898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.995028 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.001.anim
+  artifactKey: Guid(17e89109aed568f46a26d74ac6265384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.001.anim using Guid(17e89109aed568f46a26d74ac6265384) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd427aeda110f9ee2e76a763f55fd87e0') in 0.0096662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.641315 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharWalk.anim
+  artifactKey: Guid(17e89109aed568f46a26d74ac6265384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharWalk.anim using Guid(17e89109aed568f46a26d74ac6265384) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24c0089f20389c3b2d0e4b82e32af56b') in 0.0087256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.512173 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/charRUN.anim
+  artifactKey: Guid(8e678c1777c45a2459dc514c70fe873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/charRUN.anim using Guid(8e678c1777c45a2459dc514c70fe873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '181db517752f65e9a0b7204b371e8d40') in 0.0128825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.660463 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharINTERACT.001.anim
+  artifactKey: Guid(55fd25307ccb66448b2c5d2404627351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharINTERACT.001.anim using Guid(55fd25307ccb66448b2c5d2404627351) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4374b468c4c390f40dd3306eeeff726') in 0.0335431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.792905 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_AIR.anim
+  artifactKey: Guid(b7dcc6a8d175bc34e87ea85d10c54079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_AIR.anim using Guid(b7dcc6a8d175bc34e87ea85d10c54079) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '913fcca2fcfad6441c3ca0881782b2b0') in 0.015743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.272847 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_END.anim
+  artifactKey: Guid(ca791b0ea51f0db44ba01dbbf02076fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_END.anim using Guid(ca791b0ea51f0db44ba01dbbf02076fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ece065fb4bad30da47f56cda5c9d2721') in 0.0104394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.408531 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/charJUMP_START.anim
+  artifactKey: Guid(cbdd69682060c9f4f9bd27f8e0201989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/charJUMP_START.anim using Guid(cbdd69682060c9f4f9bd27f8e0201989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3d2ba8f75f526c4e6fac735f4f7fb9c') in 0.0115394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.202364 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/charIDLE.anim
+  artifactKey: Guid(1b60af96406a2124ab7de01f076aa99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/charIDLE.anim using Guid(1b60af96406a2124ab7de01f076aa99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '397eb32dd3bbdf704dc138105c32d0b4') in 0.0212723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.617184 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharIDLE.fbx
+  artifactKey: Guid(c093eebe28780f343bb945cce505da20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharIDLE.fbx using Guid(c093eebe28780f343bb945cce505da20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93bc9e414a2c71d785ace6829a58b494') in 0.3826747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.136025 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharIDLE.fbx
+  artifactKey: Guid(c093eebe28780f343bb945cce505da20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharIDLE.fbx using Guid(c093eebe28780f343bb945cce505da20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2aeaebd63d32ab50d9e9a48407cb413') in 0.2764263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.923880 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.001.anim
+  artifactKey: Guid(5f3bf93470c29ae42a98e2499b48f73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.001.anim using Guid(5f3bf93470c29ae42a98e2499b48f73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51a2c087c25723c718957d8bd3e1b75b') in 0.0190037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.802200 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/charIDLE_OLD.anim
+  artifactKey: Guid(1b60af96406a2124ab7de01f076aa99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/charIDLE_OLD.anim using Guid(1b60af96406a2124ab7de01f076aa99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bb272f858e254a7b8414563200fa066') in 0.0191348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.708117 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharIDLE.anim
+  artifactKey: Guid(5f3bf93470c29ae42a98e2499b48f73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharIDLE.anim using Guid(5f3bf93470c29ae42a98e2499b48f73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9de4f7ed3537199be30d41255005169f') in 0.0180737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.110811 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharINTERACT.fbx
+  artifactKey: Guid(68b2f15b93e550f4cb275b3b07c9dbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharINTERACT.fbx using Guid(68b2f15b93e550f4cb275b3b07c9dbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48f0cc7085af0ef94d6675ef9dfef394') in 0.3408699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.956419 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharINTERACT.fbx
+  artifactKey: Guid(68b2f15b93e550f4cb275b3b07c9dbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharINTERACT.fbx using Guid(68b2f15b93e550f4cb275b3b07c9dbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f1389b631bb91f73c29a903ba84865c') in 0.3210102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.928953 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharINTERACT_OLD.anim
+  artifactKey: Guid(55fd25307ccb66448b2c5d2404627351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharINTERACT_OLD.anim using Guid(55fd25307ccb66448b2c5d2404627351) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '447c9ad8a5dce1faf27c1a7aa43a0206') in 0.0256572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.093621 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.anim
+  artifactKey: Guid(8616d1e202a18244cb0db040a607106b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.anim using Guid(8616d1e202a18244cb0db040a607106b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b73aef464e46bbdc23b951bf1c080243') in 0.0265051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.748806 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharINTERACT.anim
+  artifactKey: Guid(8616d1e202a18244cb0db040a607106b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharINTERACT.anim using Guid(8616d1e202a18244cb0db040a607106b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1e11e6deb32380c386f1a600df16cab') in 0.022227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.769632 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharPICKUP.fbx
+  artifactKey: Guid(aa9b6a14022797d4581e5b433713480a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharPICKUP.fbx using Guid(aa9b6a14022797d4581e5b433713480a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c00f50c6d4529f9ea3e3089a0fdcb610') in 0.401914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.695803 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharPICKUP.fbx
+  artifactKey: Guid(aa9b6a14022797d4581e5b433713480a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharPICKUP.fbx using Guid(aa9b6a14022797d4581e5b433713480a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc76fb7b2ac0fe1e6b2c6d3f088a368c') in 0.3094514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.048010 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.anim
+  artifactKey: Guid(defee2d9de751f24f8d6852f10f3aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.anim using Guid(defee2d9de751f24f8d6852f10f3aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5567bba7407346b32efe83b704c8a4f2') in 0.0202259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.751194 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/charPICKUP.anim
+  artifactKey: Guid(401e7720edb6e3141ad7f49adc727f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/charPICKUP.anim using Guid(401e7720edb6e3141ad7f49adc727f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2916eab35e38ab7f5b818098af14657') in 0.0294846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.456624 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharPICKUP.anim
+  artifactKey: Guid(defee2d9de751f24f8d6852f10f3aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharPICKUP.anim using Guid(defee2d9de751f24f8d6852f10f3aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43f2d5fb5c14288125a78eeb3c18d359') in 0.0196014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.239063 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.anim
+  artifactKey: Guid(51a06b3d824aec14293a63fff92171b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.anim using Guid(51a06b3d824aec14293a63fff92171b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60f4951f52e03e91afb6d56910cfd1ee') in 0.0235978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.251429 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharINTERACT.anim
+  artifactKey: Guid(51a06b3d824aec14293a63fff92171b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharINTERACT.anim using Guid(51a06b3d824aec14293a63fff92171b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a20198fabd6e7e09791a2a1b9504d685') in 0.0174071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 225.593032 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_START.fbx
+  artifactKey: Guid(bc0ba07d07c141740a500f8527b94eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_START.fbx using Guid(bc0ba07d07c141740a500f8527b94eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9976fb0e450dc5c4986383f5ec4f426c') in 0.3203745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_MID.fbx
+  artifactKey: Guid(6fc4c21cc1400b740ba2abdbdf4d2391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_MID.fbx using Guid(6fc4c21cc1400b740ba2abdbdf4d2391) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68c31c08d91be17469bf24b207f0dbde') in 0.1525953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.631165 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_START.fbx
+  artifactKey: Guid(bc0ba07d07c141740a500f8527b94eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_START.fbx using Guid(bc0ba07d07c141740a500f8527b94eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44d0e13989d6b592d0113c07b97df7b1') in 0.288542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.431530 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_MID.fbx
+  artifactKey: Guid(6fc4c21cc1400b740ba2abdbdf4d2391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_MID.fbx using Guid(6fc4c21cc1400b740ba2abdbdf4d2391) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9c6e5f5e7141e43e46fc2dee560d85e') in 0.3479268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.863009 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_END.fbx
+  artifactKey: Guid(c7ce2b0145e287d4fb96dc218ddcde20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_END.fbx using Guid(c7ce2b0145e287d4fb96dc218ddcde20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9361ddb118095cc52bd24925d4883e9d') in 0.2706358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.851922 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.anim
+  artifactKey: Guid(8f7256a991909134daa16f6ed7ba2dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.anim using Guid(8f7256a991909134daa16f6ed7ba2dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26d2b7c82e97d8016df66d663c38471c') in 0.0105757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.648732 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_START.anim
+  artifactKey: Guid(8f7256a991909134daa16f6ed7ba2dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_START.anim using Guid(8f7256a991909134daa16f6ed7ba2dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e157f3d04dec2baf5d8ab0656b7899c') in 0.0096621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.404796 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.001.anim
+  artifactKey: Guid(28e73b95b9ecffe468d57b879976458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.001.anim using Guid(28e73b95b9ecffe468d57b879976458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b012d1d70b5ba3823dea3a53868d897') in 0.0095092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.891539 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_INAIR.anim
+  artifactKey: Guid(28e73b95b9ecffe468d57b879976458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_INAIR.anim using Guid(28e73b95b9ecffe468d57b879976458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49b5ced28470ff47782a0b08602a76e4') in 0.0086529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.762680 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.anim
+  artifactKey: Guid(89a63299f55655d45a20e19e53bf184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/rig.001_Action.anim using Guid(89a63299f55655d45a20e19e53bf184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '313d288bd0ec7977fb4474eab287f30e') in 0.0105383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.071075 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_LAND.anim
+  artifactKey: Guid(89a63299f55655d45a20e19e53bf184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharJUMP_LAND.anim using Guid(89a63299f55655d45a20e19e53bf184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcf74c39a54d1292a693f4729abac11c') in 0.0100993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.258624 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharPICKUP.anim
+  artifactKey: Guid(defee2d9de751f24f8d6852f10f3aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharPICKUP.anim using Guid(defee2d9de751f24f8d6852f10f3aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8780c0a10bff4a8140c8338d1d8b553c') in 0.0184547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
