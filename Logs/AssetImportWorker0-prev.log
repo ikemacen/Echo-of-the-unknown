@@ -15,7 +15,7 @@ D:/GitHub/Echoes of the Unknown/Echo-of-the-unknown
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65483
+52361
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/GitHub/Echoes of the Unknown/Echo-of-the-unknown
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26216]  Target information:
+Player connection [17236]  Target information:
 
-Player connection [26216]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2791994294 [EditorId] 2791994294 [Version] 1048832 [Id] WindowsEditor(7,Yu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17236]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3341221553 [EditorId] 3341221553 [Version] 1048832 [Id] WindowsEditor(7,Yu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26216] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26216] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17236] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17236] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.31f1 (a206c360e2a8)
 [Subsystems] Discovering subsystems at path D:/Unity/6000.0.31f1/Editor/Data/Resources/UnitySubsystems
@@ -91,44 +91,44 @@ Initialize mono
 Mono path[0] = 'D:/Unity/6000.0.31f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/6000.0.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/6000.0.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002753 seconds.
-- Loaded All Assemblies, in  0.797 seconds
+Registered in 0.003206 seconds.
+- Loaded All Assemblies, in  0.564 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.505 seconds
-Domain Reload Profiling: 1302ms
-	BeginReloadAssembly (314ms)
+- Finished resetting the current domain, in  0.526 seconds
+Domain Reload Profiling: 1091ms
+	BeginReloadAssembly (191ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (335ms)
-		LoadAssemblies (314ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (254ms)
+		LoadAssemblies (191ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (330ms)
-			TypeCache.Refresh (328ms)
-				TypeCache.ScanAssembly (290ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (219ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (505ms)
+	FinalizeReload (527ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (451ms)
+		SetupLoadedEditorAssemblies (459ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
+			InitializePlatformSupportModulesInManaged (28ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (241ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
-			AfterProcessingInitializeOnLoad (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -136,56 +136,144 @@ Domain Reload Profiling: 1302ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.914 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  1.177 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.074 seconds
-Domain Reload Profiling: 1987ms
-	BeginReloadAssembly (206ms)
+- Finished resetting the current domain, in  1.087 seconds
+Domain Reload Profiling: 2263ms
+	BeginReloadAssembly (279ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (41ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (48ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (615ms)
-		LoadAssemblies (415ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (784ms)
+		LoadAssemblies (553ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (331ms)
-			TypeCache.Refresh (228ms)
-				TypeCache.ScanAssembly (207ms)
-			BuildScriptInfoCaches (84ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1074ms)
+		AnalyzeDomain (392ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (243ms)
+			BuildScriptInfoCaches (91ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1087ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (849ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (126ms)
-			ProcessInitializeOnLoadAttributes (599ms)
-			ProcessInitializeOnLoadMethodAttributes (112ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (602ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 224 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6250 unused Assets / (4.4 MB). Loaded Objects now: 6943.
-Memory consumption went from 168.5 MB to 164.1 MB.
-Total: 15.336300 ms (FindLiveObjects: 1.646000 ms CreateObjectMapping: 0.891000 ms MarkObjects: 7.326400 ms  DeleteObjects: 5.470400 ms)
+Unloading 225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6250 unused Assets / (4.3 MB). Loaded Objects now: 6944.
+Memory consumption went from 173.0 MB to 168.7 MB.
+Total: 15.842400 ms (FindLiveObjects: 1.556700 ms CreateObjectMapping: 0.816600 ms MarkObjects: 7.300300 ms  DeleteObjects: 6.164400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 285798.322138 seconds.
-  path: Assets/Materials/3LayerToonMat.mat
-  artifactKey: Guid(19259d41ccd938a40a2138cf0ecfc6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/3LayerToonMat.mat using Guid(19259d41ccd938a40a2138cf0ecfc6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19482636933c970080c89b506c5a142d') in 0.7102693 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 287052.172419 seconds.
+  path: Assets/TutorialRoomAssets/Assets/floorboardanim_OPEN.fbx
+  artifactKey: Guid(f08ff87d0cf0fbc47bd9c540140772b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Assets/floorboardanim_OPEN.fbx using Guid(f08ff87d0cf0fbc47bd9c540140772b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1820c5b244abdb0e74554ed4f4ffed07') in 0.7285853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.250290 seconds.
+  path: Assets/TutorialRoomAssets/Assets/floorboardanim_OPEN.fbx
+  artifactKey: Guid(f08ff87d0cf0fbc47bd9c540140772b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Assets/floorboardanim_OPEN.fbx using Guid(f08ff87d0cf0fbc47bd9c540140772b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7fc6d8436dd9a44fc4765d39bbd1ebb') in 0.1143821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.806869 seconds.
+  path: Assets/TutorialRoomAssets/Character Model
+  artifactKey: Guid(cf4b2a3b7463c0f4f9c7799212fe92c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model using Guid(cf4b2a3b7463c0f4f9c7799212fe92c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fcb695a2ed8ff5453365c6c712fd439') in 0.0007125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.616316 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharAnimCtrllr.controller
+  artifactKey: Guid(cc677287880286847828c740110f8bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharAnimCtrllr.controller using Guid(cc677287880286847828c740110f8bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35a47d5c3f302cc814eac22cebdc9409') in 0.0020985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.980059 seconds.
+  path: Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharIDLE.anim
+  artifactKey: Guid(5f3bf93470c29ae42a98e2499b48f73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Character Model/Rig and Anims/CharIDLE.anim using Guid(5f3bf93470c29ae42a98e2499b48f73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35b3692825b6410bb423e9979ee45da9') in 0.0109892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.298069 seconds.
+  path: Assets/TutorialRoomAssets/Assets/floorboardanim_close.fbx
+  artifactKey: Guid(3e1afe611ad09404fb417eedebe2a593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Assets/floorboardanim_close.fbx using Guid(3e1afe611ad09404fb417eedebe2a593) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '415634e72ea9cebfed37a7124e233002') in 0.0937023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.336948 seconds.
+  path: Assets/TutorialRoomAssets/Assets/floorboardanim_close.fbx
+  artifactKey: Guid(3e1afe611ad09404fb417eedebe2a593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Assets/floorboardanim_close.fbx using Guid(3e1afe611ad09404fb417eedebe2a593) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afcbb7bf41be286c0833a427107d3c91') in 0.0963378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.696001 seconds.
+  path: Assets/TutorialRoomAssets/Assets/floorboardanim_up.fbx
+  artifactKey: Guid(3f1f44badd0b4324fa78fb90f58992d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Assets/floorboardanim_up.fbx using Guid(3f1f44badd0b4324fa78fb90f58992d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4de736be9176e4f13134066a7229e6ef') in 0.1029005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.817690 seconds.
+  path: Assets/TutorialRoomAssets/Assets/floorboardanim_up.fbx
+  artifactKey: Guid(3f1f44badd0b4324fa78fb90f58992d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Assets/floorboardanim_up.fbx using Guid(3f1f44badd0b4324fa78fb90f58992d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe7b8eb5599697a7145479932daae74b') in 0.0536509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.934956 seconds.
+  path: Assets/TutorialRoomAssets/Assets/floorboardanim_down.fbx
+  artifactKey: Guid(212e63348ea0f0e46abd3f6a5c1d8cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Assets/floorboardanim_down.fbx using Guid(212e63348ea0f0e46abd3f6a5c1d8cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '363f79702dbe9e60aded36ee792e1988') in 0.0956843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.811109 seconds.
+  path: Assets/TutorialRoomAssets/Assets/floorboardanim_down.fbx
+  artifactKey: Guid(212e63348ea0f0e46abd3f6a5c1d8cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Assets/floorboardanim_down.fbx using Guid(212e63348ea0f0e46abd3f6a5c1d8cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81a57c5ff8338be3061d62d148a8febc') in 0.047878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 224.121994 seconds.
+  path: Assets/TutorialRoomAssets/Assets/floorboardanim_OPEN.fbx
+  artifactKey: Guid(f08ff87d0cf0fbc47bd9c540140772b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialRoomAssets/Assets/floorboardanim_OPEN.fbx using Guid(f08ff87d0cf0fbc47bd9c540140772b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99e6ec76e4e5ee49ae8b148b7dba484c') in 0.1104001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
 
