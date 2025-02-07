@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 869.3334
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 128
+  controlID: 64
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 75
+  controlID: 65
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -2972,7 +2972,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/TutorialRoomAssets/Assets
+    - Assets/Materials
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2982,15 +2982,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/TutorialRoomAssets/Assets
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GitHub\Echoes of the Unknown\Echo-of-the-unknown
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 8aeb0000
-    m_LastClickedID: 60298
+    m_SelectedIDs: 7eeb0000
+    m_LastClickedID: 60286
     m_ExpandedIDs: 000000001ee9000020e9000022e9000024e9000026e9000028e900002ae9000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -3074,7 +3074,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 19.500015}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -3166,9 +3166,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1cec0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 04fbffff
+      m_SelectedIDs: 66c4ffff
+      m_LastClickedID: -15258
+      m_ExpandedIDs: a6cbffff04fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3688,9 +3688,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 4.0384665, y: 1.1448286, z: -6.2107587}
+    m_Target: {x: 5.3072557, y: -1.5062766, z: 2.190951}
     speed: 2
-    m_Value: {x: 4.0384665, y: 1.1448286, z: -6.2107587}
+    m_Value: {x: 5.3072557, y: -1.5062766, z: 2.190951}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3736,13 +3736,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.020882053, y: 0.97110313, z: -0.09312456, w: 0.22267294}
+    m_Target: {x: 0.05991006, y: 0.92915815, z: -0.32307288, w: 0.17445749}
     speed: 2
-    m_Value: {x: 0.020882053, y: 0.97110313, z: -0.09312456, w: 0.22267294}
+    m_Value: {x: 0.060031835, y: 0.9280296, z: -0.3237212, w: 0.17424655}
   m_Size:
-    m_Target: 16.305166
+    m_Target: 4.654952
     speed: 2
-    m_Value: 16.305166
+    m_Value: 4.4544997
   m_Ortho:
     m_Target: 0
     speed: 2
