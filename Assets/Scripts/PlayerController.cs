@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         var moveInput = (new Vector3(h, 0, v)).normalized;
         var moveDir = cameraController.PlanarRotation * moveInput;
         GroundCheck();
-        Debug.Log("isGrounded = " + isGrounded);
+        //Debug.Log("isGrounded = " + isGrounded);
 
         if (moveAmount > 0)
         {
